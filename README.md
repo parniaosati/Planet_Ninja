@@ -37,5 +37,32 @@ Make sure your environment supports webcam access and mouse control (e.g., runni
 
 1. **Open VS Code** or another code editor and **split into two windows**.
 
-2. **In the first window**, run the (hand_control.py or similar):
+2. **In the first window**, run the **mouse control script** (hand_control.py or similar):
    
+```bash
+python hand_control.py
+```
+This script will open a webcam feed and start tracking your hand.
+
+3. **In the second window**, run the **game script** (planet_ninja.py or similar):
+
+```bash
+python planet_ninja.py
+```
+Now, your hand (specifically the index finger) will control the cursor in the game, and you can start slicing planets!
+
+### 🖼️ Assets
+
+The game uses custom or downloaded fruit/planet images named:
+
+apple.png, banana.png, etc.
+
+Their corresponding sliced versions: apple_sliced_left.png, apple_sliced_right.png, etc.
+
+A background image: background.jpg
+
+Make sure all image files are located in the same directory as the game script or correctly referenced.
+
+### 📚 Libraries Used
+
+***Hand Control***
