@@ -66,3 +66,25 @@ Make sure all image files are located in the same directory as the game script o
 ### 📚 Libraries Used
 
 ***Hand Control***
+
+- opencv-python: Captures and processes webcam video.
+
+- mediapipe: Performs real-time hand landmark detection.
+
+- pyautogui: Moves the mouse cursor based on hand position.
+
+***Game***
+- pygame: Handles graphics rendering, input, animation, and game loop.
+
+### 🧠 Educational Purpose
+
+By training players to control their actions in a mirrored environment, **Planet Ninja** supports:
+
+Improved spatial reasoning
+
+Adaptation to mirrored visual systems (as in telescope finders)
+
+Practical preparation for observational astronomy tasks
+
+### 📜 License
+MIT License. Free for educational and personal use.
