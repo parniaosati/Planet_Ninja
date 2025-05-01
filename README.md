@@ -30,3 +30,12 @@ You need to install the following Python libraries:
 
 ```bash
 pip install opencv-python mediapipe pyautogui pygame
+```
+Make sure your environment supports webcam access and mouse control (e.g., running locally, not in a restricted virtual environment).
+
+### 🧭 Run Instructions
+
+1. **Open VS Code** or another code editor and **split into two windows**.
+
+2. **In the first window**, run the (hand_control.py or similar):
+   
